@@ -2,7 +2,7 @@
 const TTC = () => {
     return (
         <div>
-            Home
+            TTC
         </div>
     );
 };
