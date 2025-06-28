@@ -17,6 +17,7 @@ import SeniorsYoga from './pages/SeniorsYoga';
 import FamilyYoga from './pages/FamilyYoga';
 import Shop from './pages/Shop';
 import Notice from './pages/Notice';
+import NoticeDetail from './pages/NoticeDetail';
 
 const App = () => (
   <Router>
@@ -37,6 +38,7 @@ const App = () => (
       <Route path="/family/together" element={<FamilyYoga />} />
       <Route path="/shop" element={<Shop />} />
       <Route path="/notice" element={<Notice />} />
+      <Route path="/notice/:id" element={<NoticeDetail />} />
     </Routes>
   </Router>
 );

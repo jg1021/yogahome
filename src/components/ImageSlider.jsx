@@ -3,19 +3,22 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import 'swiper/css/pagination';       
+import 'swiper/css/pagination';
+import img1 from "../assets/slide1.jpg";    
+import img2 from "../assets/slide2.jpg";    
+import img3 from "../assets/slide3.jpg";    
 
 const slides = [
   {
-    image: '/images/slide1.jpg',
+    image: img1,
     alt: 'Yoga Class 1',
   },
   {
-    image: '/images/slide2.jpg',
+    image: img2,
     alt: 'Peaceful Meditation',
   },
   {
-    image: '/images/slide3.jpg',
+    image: img3,
     alt: 'Yoga Teacher Training',
   },
 ];
@@ -29,7 +32,7 @@ const ImageSlider = () => {
         pagination={{ clickable: true }}
         autoplay={{ delay: 4000 }}
         loop={true}
-        className="h-[60vh] md:h-[500px]"
+        className="h-[500px]"
       >
         {slides.map((slide, index) => (
           <SwiperSlide key={index}>
