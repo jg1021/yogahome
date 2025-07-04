@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/yogahome/static/css/main.41fd82f2.css",
-    "main.js": "/yogahome/static/js/main.6f07641a.js",
+    "main.css": "/yogahome/static/css/main.03d61c36.css",
+    "main.js": "/yogahome/static/js/main.61ad0c43.js",
     "static/media/slide3.jpg": "/yogahome/static/media/slide3.6d8260cd5357872c2f93.jpg",
     "static/media/slide2.jpg": "/yogahome/static/media/slide2.4eefaa4b21fad3a16bc1.jpg",
     "static/media/slide1.jpg": "/yogahome/static/media/slide1.9456271faefcc6a888c0.jpg",
     "index.html": "/yogahome/index.html",
-    "main.41fd82f2.css.map": "/yogahome/static/css/main.41fd82f2.css.map",
-    "main.6f07641a.js.map": "/yogahome/static/js/main.6f07641a.js.map"
+    "main.03d61c36.css.map": "/yogahome/static/css/main.03d61c36.css.map",
+    "main.61ad0c43.js.map": "/yogahome/static/js/main.61ad0c43.js.map"
   },
   "entrypoints": [
-    "static/css/main.41fd82f2.css",
-    "static/js/main.6f07641a.js"
+    "static/css/main.03d61c36.css",
+    "static/js/main.61ad0c43.js"
   ]
 }
