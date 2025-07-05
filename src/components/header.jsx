@@ -36,7 +36,7 @@ const menuItems = [
     name: 'ABOUT',
     //link: '/about',
     submenu: [
-      { name: 'Story', link: '/about' },
+      { name: 'Story', link: '/about/story' },
       { name: 'Teachers', link: '/about' },
       { name: 'Community', link: '/about' },
     ],    

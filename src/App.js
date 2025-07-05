@@ -19,6 +19,7 @@ import Shop from './pages/Shop';
 import Notice from './pages/Notice';
 import NoticeDetail from './pages/NoticeDetail';
 import NoticeAdmin from './pages/NoticeAdmin';
+import Story from './pages/Story';
 
 const App = () => (
   <Router>
@@ -27,6 +28,7 @@ const App = () => (
       <Route path="/yogahome" element={<Home />} />
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
+      <Route path="/about/story" element={<Story />} />
       <Route path="/location" element={<Location />} />
       <Route path="/program/beginner" element={<ProgramBeginner />} />
       <Route path="/program/intermediate" element={<ProgramIntermediate />} />
