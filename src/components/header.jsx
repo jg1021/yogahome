@@ -7,7 +7,7 @@ import { useLocation } from 'react-router-dom';
 const menuItems = [
   {
     name: 'PROGRAM',
-    link: '/program',
+    //link: '/program',
     submenu: [
       { name: 'Beginner', link: '/program/beginner' },
       { name: 'Intermediate', link: '/program/intermediate' },
@@ -16,7 +16,7 @@ const menuItems = [
   },
   {
     name: 'TTC & WORKSHOP',
-    link: '/ttc',
+    //link: '/ttc',
     submenu: [
       { name: 'Teacher Training', link: '/ttc' },
       { name: 'Workshops', link: '/workshop' },
@@ -25,16 +25,25 @@ const menuItems = [
   },
   {
     name: 'FAMILY',
-    link: '/family',
+    //link: '/family',
     submenu: [
       { name: 'Yoga for Kids', link: '/family/kids' },
       { name: 'Yoga for Seniors', link: '/family/seniors' },
       { name: 'Yoga Together', link: '/family/together' },
     ],
   },
-  { name: 'ABOUT', link: '/about' },
+  { 
+    name: 'ABOUT',
+    //link: '/about',
+    submenu: [
+      { name: 'Story', link: '/about' },
+      { name: 'Teachers', link: '/about' },
+      { name: 'Community', link: '/about' },
+    ],    
+  },
   { name: 'LOCATION', link: '/location' },
   { name: 'NOTICE', link: '/notice' },
+  { name: 'LOG IN', link: '/signin' },
 ];
 
 const Header = () => {
