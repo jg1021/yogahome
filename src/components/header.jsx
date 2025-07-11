@@ -6,44 +6,47 @@ import { useLocation } from 'react-router-dom';
 
 const menuItems = [
   {
-    name: 'PROGRAM',
+    name: 'SivanadYoga',
     //link: '/program',
     submenu: [
-      { name: 'Beginner', link: '/program/beginner' },
-      { name: 'Intermediate', link: '/program/intermediate' },
-      { name: 'Advanced', link: '/program/advanced' },
+      { name: 'Affiliated Seoul Center', link: '/program/beginner' },
+      { name: 'Dalat', link: '/program/intermediate' },
+      { name: 'California', link: '/program/advanced' },
+      { name: 'Swami Narayan', link: '/program/advanced' },
     ],
   },
   {
-    name: 'TTC & WORKSHOP',
+    name: 'AproYoga',
     //link: '/ttc',
     submenu: [
-      { name: 'Teacher Training', link: '/ttc' },
-      { name: 'Workshops', link: '/workshop' },
-      { name: 'Special Events', link: '/events' },
+      { name: 'About Us', link: '/about/story' },
+      { name: 'Teacher', link: '/teacher' },
+      { name: 'Program ttc', link: '/events' },
+      { name: 'Program retreat', link: '/events' },
+      { name: 'Location', link: '/location' },
     ],
   },
   {
-    name: 'FAMILY',
+    name: 'Prema Seojin',
     //link: '/family',
     submenu: [
-      { name: 'Yoga for Kids', link: '/family/kids' },
-      { name: 'Yoga for Seniors', link: '/family/seniors' },
-      { name: 'Yoga Together', link: '/family/together' },
+      { name: '소개', link: '/about/story' },
+      { name: '앨범', link: '/about/story' },
+      { name: 'Voice Meditation', link: '/about/story' },
     ],
   },
   { 
-    name: 'ABOUT',
+    name: 'Store',
     //link: '/about',
     submenu: [
-      { name: 'Story', link: '/about/story' },
-      { name: 'Teachers', link: '/about' },
-      { name: 'Community', link: '/about' },
+      { name: 'Harmonium', external: true, link: 'https://smartstore.naver.com/zic9net' },
+      { name: 'Goods', external: true, link: 'https://smartstore.naver.com/zic9net' },
     ],    
   },
+  /*
   { name: 'LOCATION', link: '/location' },
   { name: 'NOTICE', link: '/notice' },
-  { name: 'LOG IN', link: '/signin' },
+  { name: 'LOG IN', link: '/signin' },*/
 ];
 
 const Header = () => {
@@ -71,7 +74,7 @@ const Header = () => {
     <header ref={menuRef} className="bg-white border-b border-red-500 shadow sticky top-0 z-50">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-3 md:py-4">
         <Link to="/" className="text-xl font-bold text-red-600">
-          SIVANANDAYOGA
+          A-proYoga school
         </Link>
 
         {/* Mobile Toggle */}

@@ -5,7 +5,7 @@ const Home = () => {
     return (
     <div>
       <ImageSlider />
-      <div className="p-6 text-center text-xl">Welcome to Our Yoga Space</div>
+      <div className="p-6 text-center text-xl">Welcome to A-proYoga School</div>
     </div>
     );
 };

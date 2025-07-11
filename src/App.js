@@ -6,6 +6,8 @@ import Header from './components/header';
 import Home from './pages/Home';
 import About from './pages/About';
 import Location from './pages/Location';
+import Teacher from './pages/Teacher';
+import TeacherDetail from './pages/TeacherDetail';
 import ProgramBeginner from './pages/ProgramBeginner';
 import ProgramIntermediate from './pages/ProgramIntermediate';
 import ProgramAdvanced from './pages/ProgramAdvanced';
@@ -30,6 +32,8 @@ const App = () => (
       <Route path="/about" element={<About />} />
       <Route path="/about/story" element={<Story />} />
       <Route path="/location" element={<Location />} />
+      <Route path="/teacher" element={<Teacher />} />
+      <Route path="/teacher/:slug" element={<TeacherDetail />} />
       <Route path="/program/beginner" element={<ProgramBeginner />} />
       <Route path="/program/intermediate" element={<ProgramIntermediate />} />
       <Route path="/program/advanced" element={<ProgramAdvanced />} />
