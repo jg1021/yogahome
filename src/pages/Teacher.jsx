@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from 'react-router-dom';
+import t1 from "../assets/teacher01.jpg"
 
 const teachers = [
   {
     name: "Prema Seojin",
     slug: "prema",
-    image: "/assets/teachers/prema.jpg",
+    image: t1,
     desc: "프리마 서진 – 하타요가 지도자, 요가필드 원장",
   },
   {

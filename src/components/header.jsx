@@ -10,8 +10,8 @@ const menuItems = [
     //link: '/program',
     submenu: [
       { name: 'Affiliated Seoul Center', link: '/program/beginner' },
-      { name: 'Dalat', link: '/program/intermediate' },
-      { name: 'California', link: '/program/advanced' },
+      { name: 'Dalat', external: true, link: 'https://sivanandayogavietnam.org/' },
+      { name: 'California', external: true, link: 'https://sivanandala.org/' },
       { name: 'Swami Narayan', link: '/program/advanced' },
     ],
   },
@@ -72,7 +72,7 @@ const Header = () => {
 
   return (
     <header ref={menuRef} className="bg-white border-b border-red-500 shadow sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-3 md:py-4">
+      <div className="max-w-6xl mx-auto flex items-center justify-between px-4 py-3 md:py-4">
         <Link to="/" className="text-xl font-bold text-red-600">
           A-proYoga school
         </Link>
