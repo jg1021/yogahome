@@ -16,7 +16,7 @@ const Home = () => {
     return (
       <div>
         <ImageSlider />
-        <div className="p-6 text-center text-xl">Welcome to A-proYoga School</div>
+        <div className="p-6 text-center text-xl">Welcome to AproYoga School</div>
     
         <section className="grid grid-cols-2 md:grid-cols-3 gap-4">
           {contentLinks.map((link) => (

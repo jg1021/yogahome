@@ -74,7 +74,7 @@ const Header = () => {
     <header ref={menuRef} className="bg-white border-b border-red-500 shadow sticky top-0 z-50">
       <div className="max-w-6xl mx-auto flex items-center justify-between px-4 py-3 md:py-4">
         <Link to="/" className="text-xl font-bold text-red-600">
-          A-proYoga school
+          AproYoga school
         </Link>
 
         {/* Mobile Toggle */}
